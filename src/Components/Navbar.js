@@ -33,7 +33,7 @@ export default class NavigationBar extends React.Component {
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem className="navbarLink">
-                                    <NavLink to="/">หน้าเเรก</NavLink>
+                                    <NavLink to="/yoottana-nap">หน้าเเรก</NavLink>
                                 </NavItem>
                                 <NavItem className="navbarLink">
                                     <NavLink to="/About">เกี่ยวกับฉัน</NavLink>
