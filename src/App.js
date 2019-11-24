@@ -1,9 +1,7 @@
 import React from 'react';
-import Navbar from './Components/Navbar';
 import Home from './Page/Home';
 import About from './Page/About';
 import Portfolio from './Page/Portfolio';
-import Footer from './Components/Footer';
 import Contact from './Page/Contact';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 class App extends React.Component {
@@ -14,8 +12,8 @@ class App extends React.Component {
 
         <BrowserRouter>
           <div>
-            <Navbar />
             <Switch>
+              <Route exact path="/" component={Home} />
               <Route exact path="/yoottana-nap" component={Home} />
               <Route path="/About" component={About} />
               <Route path="/Portfolio" component={Portfolio} />
@@ -23,9 +21,7 @@ class App extends React.Component {
             </Switch>
           </div>
         </BrowserRouter>
-        <div className="container">
-          <Footer />
-        </div>
+       
       </React.Fragment>
     );
   }

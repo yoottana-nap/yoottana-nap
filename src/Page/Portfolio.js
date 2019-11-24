@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import CardBox from '../Components/CardBox';
+import MainLayout from '../Layout/MainLayout';
 
 class Portfolio extends Component {
     render() {
         return (
+            <MainLayout>
             <div className="App container">
                 <div className="row">
                     <div className="col-12 my-5">
@@ -22,6 +24,7 @@ class Portfolio extends Component {
                 </div>
 
             </div>
+            /</MainLayout>
         )
     }
 }

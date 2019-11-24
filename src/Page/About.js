@@ -1,10 +1,11 @@
 import React from 'react';
 import ProfileComponent from '../Components/ProfileComponent';
 import Timeline from '../Components/Timeline';
+import MainLayout from '../Layout/MainLayout';
 class About extends React.Component {
     render() {
         return (
-            <React.Fragment>
+            <MainLayout>
                 <div className="App">
                     <div className="container">
                         <div className="row">
@@ -17,7 +18,7 @@ class About extends React.Component {
                         </div>
                     </div>
                 </div>
-            </React.Fragment >
+            </MainLayout >
         )
     }
 } export default About;

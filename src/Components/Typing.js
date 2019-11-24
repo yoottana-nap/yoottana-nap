@@ -44,7 +44,7 @@ class Typing extends Component {
             <div>
                 <h5>
                 {this.props.heading}
-                <span className="text-warning">{this.state.text}<span className="bg-danger text-danger">"</span></span ><span>/></span>
+                <span className="text-warning">{this.state.text}<span className="bg-danger text-danger"></span></span ><span>/></span>
                 </h5>
             </div>
         )

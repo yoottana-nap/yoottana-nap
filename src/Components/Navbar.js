@@ -27,7 +27,7 @@ export default class NavigationBar extends React.Component {
                 <Navbar className="alpha text-center fixed-top" dark expand="md">
                     <div className="container">
                         <NavbarBrand>
-                            <Link to="/yoottana-nap">reactstrap</Link>
+                            <Link to="/yoottana-nap">Yoottana-Nap</Link>
                         </NavbarBrand>
                         <NavbarToggler onClick={this.toggle} />
                         <Collapse isOpen={this.state.isOpen} navbar>

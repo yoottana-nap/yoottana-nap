@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 class Footer extends Component {
     render() {
         return (
-            <div className="Footer mt-5">
                 <div className="container-fluid text-center text-white bg-dark">
                     <div className="row">
                         <div className="col-12 p-1 ">
@@ -11,7 +10,6 @@ class Footer extends Component {
                             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
                         </div>
                     </div>
-                </div>
             </div>
         )
     }
