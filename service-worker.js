@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yoottana-nap/precache-manifest.bb0ec64e791bc81265ec69d62175b10e.js"
+  "/yoottana-nap/precache-manifest.99c48dd9d4da1905b3289fe1c98a14a6.js"
 );
 
 self.addEventListener('message', (event) => {
