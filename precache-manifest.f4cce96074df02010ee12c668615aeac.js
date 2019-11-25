@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06a8e3bd3013482f66e1929fe5533533",
+    "revision": "14ac7cb3ed3709a63361520fdb0f56c9",
     "url": "/yoottana-nap/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yoottana-nap/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "255cf33afbd9dfb02ca2",
+    "revision": "e70c1de27d8d84a99eb1",
     "url": "/yoottana-nap/static/css/main.ee550eb1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yoottana-nap/static/js/2.30311682.chunk.js"
   },
   {
-    "revision": "255cf33afbd9dfb02ca2",
-    "url": "/yoottana-nap/static/js/main.cb323eb0.chunk.js"
+    "revision": "e70c1de27d8d84a99eb1",
+    "url": "/yoottana-nap/static/js/main.25ac2a0b.chunk.js"
   },
   {
     "revision": "43ce011740edd66a386a",
